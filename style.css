@@ -1,0 +1,44 @@
+/* Default, Active, Hover, and Focus States */
+
+body {
+  font-size: 24px;
+  font-family: fantasy;
+}
+
+a,
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: yellowgreen;
+}
+
+a:focus {
+  text-decoration: teal;
+}
+
+.bonus {
+  color: hotpink;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.bonus:hover {
+  opacity: 0.2;
+  transition: opacity 0.55s ease-in-out;
+}
+
+li {
+    font-size: .8em;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.5em;
+}
